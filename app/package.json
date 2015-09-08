@@ -1,6 +1,7 @@
 {
     "name": "gw2-pvp-log",
     "description": "gw2-pvp-log",
+    "productName": "gw2-pvp-log",
     "version": "0.0.1",
     "main": "app.js"
 }

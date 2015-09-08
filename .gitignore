@@ -1,3 +1,7 @@
+/build
+/cache
+/installer
+
 # Created by https://www.gitignore.io/api/windows,osx,linux,node
 
 ### Windows ###

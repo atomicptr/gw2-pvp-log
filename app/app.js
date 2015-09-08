@@ -7,11 +7,17 @@ var spawn = require("child_process").spawn;
 
 var mkdirp = require("./vendor/mkdirp.js");
 var iniParser = require("./vendor/ini.js");
+var quirl = require("./vendor/quirl.js").init();
 
 var appdata = process.env["appdata"];
 
 var toolPath = path.resolve(appdata, "gw2-pvp-log");
 var filePath = path.resolve(toolPath, "logs");
+
+if(quirl.handleEvents(process.argv)) {
+    app.quit();
+    return;
+}
 
 function handleErrors(error) {
     if(error) {

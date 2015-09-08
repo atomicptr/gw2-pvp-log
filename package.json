@@ -1,0 +1,9 @@
+{
+    "name": "gw2-pvp-log",
+    "dependencies": {
+        "gulp": "*",
+        "gulp-run-electron": "*",
+        "electron-windows-installer": "*",
+        "electron-packager": "*"
+    }
+}
